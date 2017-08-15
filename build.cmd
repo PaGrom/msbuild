@@ -2,7 +2,7 @@
 setlocal
 
 :: Check prerequisites
-if not "%VisualStudioVersion%" == "14.0" (
+if not "%VisualStudioVersion%" == "15.0" (
     echo Error: build.cmd should be run from a Visual Studio 2015 Command Prompt.  
     echo        Please see https://github.com/Microsoft/msbuild/wiki/Building-Testing-and-Debugging for build instructions.
     exit /b 1

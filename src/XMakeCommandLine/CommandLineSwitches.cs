@@ -217,7 +217,7 @@ namespace Microsoft.Build.CommandLine
 #endif
             new ParameterlessSwitchInfo(  new string[] { "distributedfilelogger", "dfl" },  ParameterlessSwitch.DistributedFileLogger, null, null    ),
 #if FEATURE_MSBUILD_DEBUGGER
-            new ParameterlessSwitchInfo(  new string[] { "debug", "d" },         ParameterlessSwitch.Debugger,                         null, "DebuggerEnabled"),
+            new ParameterlessSwitchInfo(  new string[] { "debug", "d" },         ParameterlessSwitch.Debugger,                         null, null    ),
 #endif
             new ParameterlessSwitchInfo(  new string[] { "detailedsummary", "ds" },         ParameterlessSwitch.DetailedSummary,       null , null   )
         };
